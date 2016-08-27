@@ -7,6 +7,7 @@
       <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata">
       <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
       <link rel="shortcut icon" href="images/p.ico" />
+      <meta name="google-site-verification" content="X8utRumFOLKpO-ZmZuGPqUITnGOrq7B5Z1QPUE5dJI8" />
       <!--Let browser know website is optimized for mobile-->
       <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
