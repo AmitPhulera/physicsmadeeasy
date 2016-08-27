@@ -9,6 +9,7 @@
       <!--Let browser know website is optimized for mobile-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="shortcut icon" href="images/p.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Experiments</title>
       <style>
@@ -24,7 +25,19 @@
         .center{
           text-align: center;
         }
-        
+        .loader{
+          width: 100vw;
+          height: 100vh;
+          background: rgba(0,0,0,.9);
+          position: fixed;
+          top:0;
+          left:0;
+          z-index: 100;
+        }
+        .loader .preloader-wrapper{
+          top:50vh;
+          left:50vw;
+        }
       </style>
     
     </head>
@@ -33,17 +46,60 @@
       <!--Navigation Bar Starts-->
       <nav>
         <div class="nav-wrapper purple z-depth-5">
-          <a href="#!" class="brand-logo center">Physics Made Easy</a>
+          <a href="./" class="brand-logo center">Physics Made Easy</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           
           <ul class="side-nav" id="mobile-demo">
             <li><a href="./index.php">Home</a></li>
             <li><a href="./experiments.php">Experiments</a></li>
-            <li><a href="https://www.facebook.com/aphulera">Contact Us</a></li>
+            <li><a href="https://www.facebook.com/amitphulera95">Contact Me</a></li>
             
           </ul>
         </div>
       </nav>
+      <div class="loader">
+   <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-red">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-yellow">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-green">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+</div>
  <main>
  <div class="container">
  <ul class="collection">
@@ -134,7 +190,7 @@
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script type="text/javascript" >
        $(document).ready(function(){
-          
+          $('.loader').hide();
           $(".button-collapse").sideNav();
       });
        

@@ -1,4 +1,5 @@
 $( document ).ready(function(){
+  $('.loader').hide();
            $(".button-collapse").sideNav();
 });
 $("#newton_form").on('submit', function(event) {

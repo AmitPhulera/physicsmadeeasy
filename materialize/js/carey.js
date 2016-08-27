@@ -1,4 +1,5 @@
 $( document ).ready(function(){
+  $('.loader').hide();
       		 $(".button-collapse").sideNav();
 });
       	$("#form1").on('submit', function(event) {

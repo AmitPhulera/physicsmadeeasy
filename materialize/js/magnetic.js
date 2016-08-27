@@ -1,4 +1,5 @@
 $( document ).ready(function(){
+  $('.loader').hide();
            $(".button-collapse").sideNav();
 });
 $("#magnetic_form").on('submit', function(event) {

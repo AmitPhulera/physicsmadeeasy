@@ -6,12 +6,33 @@
       <link type="text/css" rel="stylesheet" href="./materialize/css/animate.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata">
       <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
-
+      <link rel="shortcut icon" href="images/p.ico" />
       <!--Let browser know website is optimized for mobile-->
       <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Physics Made Easy</title>
-      
+      <style>
+        .parallax-container{
+          height: 500px;
+        }
+        img{
+          height: 1000px;
+          width: 500px;
+        }
+        .loader{
+          width: 100vw;
+          height: 100vh;
+          background: rgba(0,0,0,.9);
+          position: fixed;
+          top:0;
+          left:0;
+          z-index: 100;
+        }
+        .loader .preloader-wrapper{
+          top:50vh;
+          left:50vw;
+        }
+      </style>
     </head>
 
     <body>
@@ -32,29 +53,71 @@
     </div>
   </nav>
   </div>
-   
+  <div class="loader">
+   <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-red">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-yellow">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-green">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+</div>
 <main>
 	<div class="parallax-container" >
 	      <div class="parallax" ><img  src="images/image1.jpg" class="responsive-img" /></div>
-
+       
 	</div>
-	<div class="section light-blue lighten-2">
-	   	<div class="row container ">
-	      	<a href="./index.php"><h2 class="header white-text">Physics Made Easy</h2></a>
-	     	<span class="right">
-	        	<a href="./experiments.php"class="waves-effect waves-light btn-large">Go To Experiments</a>
-	      	</span>
-	      	<div class="row container">
-	      	<p class="grey-text text-darken-3 lighten-3">An online calculator that calculates the observation tables if given the Experimental Values (Basically build to help B.Tech First Year Students with their Physics Lab Work) . </p>
-	        	Presently it comes with 10 experiments which were covered in First Year of My College . If you want to add any more , feel free to contact <a href="https://www.facebook.com/aphulera">me</a>
-	        	<p class="grey-text text-darken-3 lighten-3">Hope you will like it.  . </p>
-	        	<p> And more thing "College Time is precious Don't waste it on calculator" :D</p>
-	        </div>	
+	 <div class="section light-blue lighten-2">
+      <div class="row container ">
+          <a href="./index.php"><h2 class="header white-text">Physics Made Easy</h2></a>
+        <span class="right">
+            <a href="./experiments.php"class="waves-effect waves-light btn-large">Go To Experiments</a>
+          </span>
+          <div class="row container">
+          <p class="grey-text text-darken-3 lighten-3">An online calculator that calculates the observation tables if given the Experimental Values (Basically build to help B.Tech First Year Students with their Physics Lab Work) . </p>
+            Presently it comes with 10 experiments which were covered in First Year of My College . If you want to add any more , feel free to contact <a href="https://www.facebook.com/aphulera">me</a>
+            <p class="grey-text text-darken-3 lighten-3">Hope you will like it.  . </p>
+            <p> And more thing "College Time is precious Don't waste it on calculator" :D
+          </div>  
 
-	      	
-	      
-	    </div>
-	</div>
+          
+        
+      </div>
+  </div>  
 	<div class="parallax-container" >
 	      <div class="parallax"><img  src="images/image2.JPG" class="responsive-img" /></div>
 	</div>
@@ -74,7 +137,7 @@
 	      <div class="parallax"><img  src="images/image4.JPG" class="responsive-img" /></div>
 	</div>
 	
-	<div class="section teal darken-4">
+	 <div class="section teal darken-4">
         <footer class="page-footer teal darken-4">
           <div class="container">
             <div class="row">
@@ -82,11 +145,12 @@
                 <h5 class="white-text">Hope It Helped You</h5>
                 <p class="grey-text text-lighten-4">If you liked it then please ping back. Any kind of suggestions/feedbacks/complaints are heartly welcomed</p>
                 <p class="grey-text text-lighten-4">If you think something should be added to it or you are intrested in developing any module then you are most welcomed.</p>
+                <p class="grey-text text-lighten-4">You can send a pull request on <a href="https://github.com/AmitPhulera/physicsmadeeasy">GitHub</a></p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Contact Me @</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/amitphulera95">Facebook</a></li>
                   <li><a class="grey-text text-lighten-3" href="https://www.quora.com/Amit-Phulera">Quora</a></li>
                   
                   <li><a class="grey-text text-lighten-3" href="https://github.com/AmitPhulera">GitHub</a></li>
@@ -101,7 +165,7 @@
             </div>
           </div>
         </footer>
-        </div>
+        </div> 
             
 	
 </main>
@@ -109,6 +173,7 @@
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script type="text/javascript" >
     	 $(document).ready(function(){
+          $('.loader').hide();
       		$('.parallax').parallax();
       		$(".button-collapse").sideNav();
     	});

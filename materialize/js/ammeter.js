@@ -1,5 +1,7 @@
 $( document ).ready(function(){
+  $('.loader').hide();
            $(".button-collapse").sideNav();
+
 });
 $("#share").on('click', function(event) {
   
