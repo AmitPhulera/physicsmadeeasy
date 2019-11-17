@@ -165,13 +165,7 @@
               </div>
             </div>
           </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2015-16 Physics Made Easy : All Rights Reserved 
-            
-            </div>
-          </div>
-        </footer>
+          
         </div> 
             
 	
